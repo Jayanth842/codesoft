@@ -1,0 +1,62 @@
+# Movie Rating Prediction with Python
+
+## Overview
+This project is part of the **CODSOFT Data Science Internship** where we build a machine learning model to predict the **IMDB ratings** of movies based on features like runtime, year, genre, and director.
+
+## Dataset
+Dataset Used: **IMDB India Movies**  
+Download Link: [IMDB India Movies Dataset](https://www.kaggle.com/datasets/adrianmcmahon/imdb-india-movies)
+
+### Features Used:
+- Runtime
+- Year
+- Genre
+- Director
+- IMDB Rating (Target Variable)
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- Matplotlib
+- Seaborn
+
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/YourUsername/CODSOFT.git
+cd CODSOFT
+```
+2. Install dependencies:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+3. Download the dataset and place it in the project folder.
+
+## Usage
+Run the `movie_rating_prediction.py` file:
+```bash
+python movie_rating_prediction.py
+```
+
+## Output Example
+✅ Mean Squared Error: 0.5  
+✅ R2 Score: 0.75
+
+### Visualization
+The code will generate a scatter plot comparing the **Actual Ratings** vs **Predicted Ratings**.
+
+## Project Structure
+```
+├── movie_rating_prediction.py
+├── IMDB India Movies.csv
+└── README.md
+```
+
+## Author
+Your Name
+
+## License
+This project is licensed under the MIT License.
+
